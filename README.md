@@ -43,7 +43,7 @@ The system processes real-time parking data and generates dynamic prices to opti
 
 ---
 
-### System Architecture 🏗️
+### 🏗️ System Architecture 
 
                 ┌──────────────┐  
                 │ CSV Dataset  │  

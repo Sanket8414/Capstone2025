@@ -1,8 +1,8 @@
 # Capstone2025
 
-## Dynamic Parking Pricing System
+# Dynamic Parking Pricing System
 A real-time parking pricing system that adjusts prices based on demand, occupancy, and various environmental factors using streaming data processing.
-# Overview 🚀 
+## Overview 🚀 
 This project implements two dynamic pricing models for parking lots:
 
 **Model 1**: Baseline Linear Model with time-based and occupancy-based pricing
@@ -11,30 +11,30 @@ This project implements two dynamic pricing models for parking lots:
 The system processes real-time parking data and generates dynamic prices to optimize parking lot utilization and revenue.
 
 ## Tech Stack 🛠️
-# Core Technologies
+ **Core Technologies**
 
 **Python 3.x** - Primary programming language
 **Pathway** - Stream processing framework for real-time data
 **Pandas** - Data manipulation and analysis
 **NumPy** - Numerical computing
 
-# Visualization & Analysis
+## Visualization & Analysis
 
 **Bokeh** - Interactive visualization library
 **Google collab** - Development environment
 
-# Data Processing
+## Data Processing
 
 CSV Processing - Real-time data ingestion
 Streaming Data - Continuous data processing pipeline
 
-# Architecture Flow 📊
+## Architecture Flow 📊
 **Model 1** : Baseline Linear Model
 Raw Data → Schema Validation → Time Features → Price Calculation → Visualization
 **Model 2** : Demand-Based Model
 Raw Data → Schema Validation → Multi-Factor Analysis → Demand Calculation → Price Optimization → Visualization
 
-# System Architecture 🏗️ 
+## System Architecture 🏗️ 
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
 │   Data Source   │    │  Pathway Stream  │    │  Pricing Engine │
 │   (CSV File)    │───▶│   Processing     │───▶│   (Models 1&2) │
@@ -46,7 +46,7 @@ Raw Data → Schema Validation → Multi-Factor Analysis → Demand Calculation 
 │  (Bokeh Plots)  │    │  & Features      │    │  (Dynamic)      │
 └─────────────────┘    └──────────────────┘    └─────────────────┘
 
-# Files 📁
+## Files 📁
 
 **dataset.csv**                 : dataset provided to us and the main file used as the path
 **model1_code**                 : complete code for model 1

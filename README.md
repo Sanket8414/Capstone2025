@@ -74,13 +74,15 @@ The system processes real-time parking data and generates dynamic prices to opti
 
 ## 📁 Files  
 
-| File               | Description                                        |
-|--------------------|----------------------------------------------------|
-| `dataset.csv`      | Dataset provided to us and used in both models     |
-| `model1_code`      | Complete code for Model 1                          |
-| `model2_code`      | Complete code for Model 2                          |
-| `model1_plot`      | Bokeh visualization output for Model 1             |
-| `model2_plot`      | Bokeh visualization output for Model 2             |
-| `model1_result`    | Output of Model 1 used for plotting                |
-| `model2_result`    | Output of Model 2 used for plotting                |
+| File                    | Description                                        |
+|-------------------------|----------------------------------------------------|
+| `dataset.csv`           | Dataset provided to us and used in both models     |
+| `model1_code.ipynb`     | Complete code for Model 1                          |
+| `model2_code.ipynb`     | Complete code for Model 2                          |
+| `model1_plot.html`      | Bokeh visualization output for Model 1             |
+| `model2_plot.html`      | Bokeh visualization output for Model 2             |
+| `model1_result.csv`     | Output of Model 1 used for plotting                |
+| `model2_result.csv`     | Output of Model 2 used for plotting                |
+| `model1_backupplot.jpg` | Plot for model 1 in case html file doesnt work     |
+| `model2_backupplot.jpg` | Plot for model 2 in case html file doesnt work     |
 

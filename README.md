@@ -34,14 +34,26 @@ Raw Data → Schema Validation → Time Features → Price Calculation → Visua
 **Model 2** : Demand-Based Model  
 Raw Data → Schema Validation → Multi-Factor Analysis → Demand Calculation → Price Optimization → Visualization  
 
-<pre> ```text ┌──────────────┐ ┌────────────────┐ ┌────────────────────┐ │ Data Source │─────▶│ Pathway Stream │─────▶│ Pricing Engine │ │ (CSV File) │ │ Processing │ │ (Models 1 & 2) │ └──────────────┘ └────────────────┘ └────────────────────┘ ▼ ▼ ┌────────────────┐ ┌────────────────────┐ ┌────────────────────┐ │ Visualization │◀────│ Data Enrichment │◀────│ Price Output │ │ (Bokeh Plots) │ │ & Features │ │ (Dynamic) │ └────────────────┘ └────────────────────┘ └────────────────────┘ ``` </pre> 
+## System Architecture 🧱
+
+ ┌──────────────┐         ┌──────────────────┐     ┌────────────────────────┐
+ │ Data Source  │   ─▶   │  Pathway Stream  │─▶   │     Pricing Engine     │
+ │  (CSV File)  │         │    Processing    │     │     (Models 1 & 2)     │
+ └──────────────┘         └──────────────────┘     └────────────────────────┘
+                                                              │
+                                                              ▼
+ ┌────────────────────┐   ┌───────────────────────┐   ┌────────────────────┐
+ │   Visualization    │ ◀ │   Data Enrichment     │ ◀ │    Price Output   │
+ │   (Bokeh Plots)    │   │     & Features        │   │      (Dynamic)     │
+ └────────────────────┘   └───────────────────────┘   └────────────────────┘
+
 
 ## Files 📁  
 
-**dataset.csv**                 : dataset provided to us and the main file used as the path  
-**model1_code**                 : complete code for model 1  
-**model2_code**                 : complete code for model 2  
-**model1_plot**                 : visualization for model 1  
-**model2_plot**                 : visualization for model 2  
-**model1_result**               : output of model 1 used for visualization  
-**model2_result**               : output of model 2 used for visualization  
+**dataset.csv**                   : dataset provided to us and the main file used as the path  
+**model1_code**                   : complete code for model 1  
+**model2_code**                   : complete code for model 2  
+**model1_plot**                   : visualization for model 1  
+**model2_plot**                   : visualization for model 2  
+**model1_result**                 : output of model 1 used for visualization  
+**model2_result**                 : output of model 2 used for visualization  
